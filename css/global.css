@@ -1,0 +1,15 @@
+/* block__element--modifier */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'verdana';
+    font-weight: 400;
+}
+
+.nav {
+    background-color: #FFFFFF;
+    color: #335576;
+
+}
