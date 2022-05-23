@@ -1,0 +1,46 @@
+.page {
+    border-bottom: 3px solid #DB7A4E;
+}
+
+.main {
+    width:100%;
+    background: no-repeat center center;
+    background-size: cover;
+    min-height: 60vh;
+}
+
+.main h1 {
+    color: #ffff;
+    padding-left: 4%;
+    padding-top: 2%;
+    font-size: 3.5em;
+}
+
+.itinerary {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itinerary__days {
+    margin: 5% 1% 5% 1%;
+    justify-content: center;
+    padding: 1%;
+    width: 15%;
+    background-color:#ffff;
+    border-radius: 12px;
+}
+
+.itinerary__days h3 {
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+    
+.itinerary__days--activities p {
+    background-color: #FEFAF5;
+    text-align: center;
+    margin-top: 10%;
+    padding: 8% 10%;
+}
+
