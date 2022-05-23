@@ -1,0 +1,103 @@
+/**
+HERO SECTION
+**/
+.hero {
+    background-color: #FEFAF5;
+    color: #335576;
+    text-align: left;
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    align-items: center;
+}
+
+.hero button {
+    background-color: #DB7A4E;
+    color: #ffff;
+    border: none;
+    padding: 5px 30px;
+    border-radius: 12px;
+}
+
+.page {
+    border-bottom: 3px solid #DB7A4E;
+}
+
+.slogan p {
+    font-size: .7em;
+    padding-bottom: 10px;
+}
+.image {
+    text-align: right;
+}
+
+.image img {
+    max-width: 60%;
+    padding: 1em 0em;
+}
+
+/**
+RECOMMENDATION SECTION
+**/
+
+.recommend h3 {
+    color: #335576;
+    text-align: left;
+    height: 2vh;
+    width: 100%;
+    margin: 0;
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+
+.container {
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.card{
+    margin-top: 5px;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    width: 20%;
+}
+
+.card a {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.card img{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .2);;
+
+}
+
+.card__title{ 
+    position: absolute; 
+    left: 10px; 
+    bottom: 0;  
+    padding: 0.5rem;
+    color: black;
+    font-size: 1rem;
+
+}  
+

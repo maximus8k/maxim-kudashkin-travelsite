@@ -1,15 +1,126 @@
 /* block__element--modifier */
 
-* {
-    box-sizing: border-box;
+* { 
+    margin: 0; 
+    box-sizing: border-box; 
 }
+
 body {
-    font-family: 'verdana';
+    font-family: 'Verdana'; 
     font-weight: 400;
 }
+
+/**
+NAVIGATION HEADER
+**/
 
 .nav {
     background-color: #FFFFFF;
     color: #335576;
+    height: 10vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    align-items: center;
 
 }
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline;
+    padding-bottom: 10px;
+}
+
+.menu a {
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    text-align: right;
+}
+
+/**
+FOOTER
+**/
+
+.foot {
+    padding-top: 2%;
+    background-color: #FEFAF5;
+    color: #335576;
+    display: flex;
+    justify-content: center;    
+    width: 100%;
+}
+
+/**
+FOOTER CONTACT
+**/
+
+.foot__contact, .foot__social {
+    width: 15%;
+}
+
+
+
+/**
+FOOTER HOURS
+**/
+
+.foot__hours{
+    width: 30%;
+}
+
+.foot__hours--week {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%; 
+    text-align: left;
+}
+
+.foot__hours--days {
+    display: block;
+    width: 100%;
+}
+
+.foot h5 {
+    color: #DB7A4E;
+    font-size: 0.7em;
+    font-style: none;
+    width: 100%;
+    padding-top: 10%;
+}
+
+.foot p {
+    width: 100%;
+    padding-top: 8%;
+}
+
+/**
+FOOTER SOCIAL LINKS
+**/
+
+.foot__social--links {
+    width: 100%;
+    display: inline-block;
+
+}
+
+.foot__social--insta, .foot__social--facebook, .foot__social--twitter {
+    display: inline-block;
+    width: 20%;
+    padding-top: 15%;
+}
+
+.foot img {
+    height: 1.5em;
+}
+
+
+
+
+
