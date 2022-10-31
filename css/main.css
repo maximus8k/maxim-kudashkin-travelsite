@@ -52,6 +52,9 @@ RECOMMENDATION SECTION
     margin: 0;
     padding-top: 2%;
     padding-left: 4%;
+
+
+
     padding-right: 4%;
 
 }
@@ -92,12 +95,13 @@ RECOMMENDATION SECTION
 }
 
 .card__title{ 
-    position: absolute; 
-    left: 10px; 
-    bottom: 0;  
+    position: relative; 
+    left: -80px; 
+    top: 320px;  
     padding: 0.5rem;
-    color: black;
+    color: white;
     font-size: 1rem;
+    font-weight: 400;
 
 }  
 
